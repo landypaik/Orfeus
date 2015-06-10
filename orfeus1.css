@@ -1,0 +1,282 @@
+/* CSS declarations go here */
+.logoLarge {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	text-align: center;
+}
+
+.container {
+	width: 480px;
+	height: 800px;
+	border-style: solid;
+	border-color: black;
+	background-color: #BBBDBF;
+	border-width: 1px;
+}
+
+.presetQuestion {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	font-size: 71.1px;
+	line-height: 1.1;
+	letter-spacing: -8px;
+	padding-bottom: 30px;
+}
+
+
+.row {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.squareButton {
+	width: 217.73px;
+	height: 217.73px;
+	padding: 0px;
+	background-color: #E6E6E6;
+}
+
+
+.squareButton:active {
+	background-color: #969696;
+}
+
+.squareButton2 {
+	width: 146px;
+	height: 218px;
+	padding: 0px;
+	background-color: #E6E6E6;
+}
+
+.squareButton2:active {
+	background-color: #969696;
+}
+
+.squareButton3 {
+	width: 145px;
+	height: 145px;
+	padding: 0px;
+	background-color: #E6E6E6;
+}
+
+.squareButton3:active {
+	background-color: #969696;
+}
+
+.actionButton {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	width: 220.749px;
+	height: 54.239px;
+	margin-top:30px;
+	font-size: 20px;
+}
+
+#leftButton {
+	padding-left: 0px;
+}
+
+.button-parent {
+	padding: 0px;
+	text-align:center;
+}
+
+img, button {
+	display: inline-block;
+}
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+#resistButton {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	width: 413.151px;
+	height: 101.966 px;
+	margin-top:30px;
+	margin-left:14px;
+	font-size: 40px;
+	text-align:center;
+}
+
+.distractionQuestion {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	text-align: center;
+	margin-top: 105px;
+	font-size: 43px;
+	line-height: 1.1;
+	letter-spacing: -3px;
+	padding-bottom: 30px;
+
+}
+
+.nameWebsiteApp {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	font-size: 63.6px;
+	text-align: center;
+	line-height: 1.1;
+	letter-spacing: -4px;
+	padding-bottom: 30px;
+}
+
+.pictureWebsiteApp {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	margin-left: 70px;
+	margin-bottom: 50px;
+}
+
+.setting {
+	margin-left: 420px;
+	margin-top: 10px;
+}
+
+.textMiddle {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	font-size: 63.6px;
+	text-align: center;
+	line-height: 1.1;
+	letter-spacing: -4px;
+	padding-top: 350px;
+}
+
+#lonelyCancel {
+	margin-left: 100px;
+	margin-top: 300px;
+}
+
+.syncText {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	font-size: 48px;
+	text-align: center;
+	line-height: 1.1;
+	letter-spacing: -4px;
+	padding-top: 130px;
+	padding-bottom: 20px;
+}
+
+.syncText2 {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	font-size: 48px;
+	text-align: center;
+	line-height: 1.1;
+	letter-spacing: -4px;
+	padding-top: 130px;
+	padding-bottom: 100px;
+}
+.welcomeLogo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.welcomeMsg {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	font-size: 48px;
+	text-align: center;
+	line-height: 1.1;
+	letter-spacing: -4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.instructionMsg {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	font-size: 36px;
+	text-align: center;
+	line-height: 1.1;
+	letter-spacing: -2px;
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+
+#lonelyContinue {
+	margin-left: 115px;
+	margin-top: 125px;
+}
+
+.settingButton {
+	width: 413.151px;
+	height: 101.966px;
+	background-color: white;
+	margin-left: 18px;
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	font-size: 52.89px;
+	text-align: center;
+	line-height: 1.1;
+	letter-spacing: -2px;
+	margin-top: 35px;
+}
+
+#lonelyBack {
+	margin-left: 15px;
+	margin-top: 0px;
+}
+
+.instructionMsg2 {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	font-size: 36px;
+	text-align: center;
+	line-height: 1.1;
+	letter-spacing: -2px;
+	padding-top: 75px;
+	padding-bottom: 0px;
+}
+
+.textMiddle2 {
+	font-family: quicksand;
+	src:
+	url("/quicksand/Quicksand-Bold.otf");
+	font-size: 63.6px;
+	text-align: center;
+	line-height: 1.1;
+	letter-spacing: -4px;
+	padding-top: 250px;
+}
+
+#lonelyCancel2 {
+	margin-left: 110px;
+	margin-top: 125px;
+}
+
+#lonelyCancelContinue {
+	margin-left: 110px;
+	margin-top: 300px;
+}
+
+#lonelyBack2 {
+	margin-left: 15px;
+	margin-top: 20px;
+}

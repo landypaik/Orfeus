@@ -1,0 +1,319 @@
+<head>
+  <title>orfeus1</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  {{> splash}}
+  {{> welcome}}
+  {{> sync}}
+  {{> syncing}}
+  {{> synced}}
+  {{> calibrate}}
+  {{> calibrated}}
+  {{> triggers}}
+  {{> time}}
+  {{> sites}}
+  {{> apps}}
+  {{> resist}}
+  {{> distraction}}
+  {{> settingPage}}
+</body>
+
+
+
+<template name="splash">
+	<div class="container">
+		<div class="logoLarge"><img src="/orfeusIconLarge.png"/></div>
+  	</div>
+</template>
+
+
+
+<template name="triggers">
+	<div class="container">
+		<div class="presetQuestion">what are <br> your triggers?</div>
+
+		<div class="row">
+		  	<div class="col-xs-6 button-parent">
+		  		<button class="squareButton" id="eating"><img src="/eating.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 button-parent">
+		  		<button class="squareButton" id="coffee"><img src="/coffee.png"/></button>
+		  	</div>
+		</div>
+		
+		<div class="row">
+		  	<div class="col-xs-6 button-parent" id="leftButton">
+		  		<button class="squareButton" id="drinking"><img src="/drinking.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 button-parent" id="rightButton">
+		  		<button class="squareButton" id="driving"><img src="/driving.png"/></button>
+		  	</div>
+	  	</div>
+
+	  	<div class="row">
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="cancelButton"><strong>CANCEL</strong></button>
+		  	</div>
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="continueButton"><strong>CONTINUE</strong></button>
+		  	</div>
+	  	</div>
+  	</div>
+</template>
+
+
+
+<template name="time">
+	<div class="container">
+		<div class="presetQuestion">when do <br> you smoke?</div>
+
+		<div class="row">
+		  	<div class="col-xs-6 col-md-4 button-parent">
+		  		<button class="squareButton2" id="morning"><img src="/morning.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent">
+		  		<button class="squareButton2" id="noon"><img src="/noon.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent">
+		  		<button class="squareButton2" id="afternoon"><img src="/afternoon.png"/></button>
+		  	</div>
+		</div>
+		
+		<div class="row">
+		  	<div class="col-xs-6 col-md-4 button-parent" id="leftButton">
+		  		<button class="squareButton2" id="evening"><img src="/evening.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent" id="rightButton">
+		  		<button class="squareButton2" id="night"><img src="/night.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent" id="rightButton">
+		  		<button class="squareButton2" id="latenight"><img src="/latenight.png"/></button>
+		  	</div>
+	  	</div>
+
+	  	<div class="row">
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="cancelButton"><strong>CANCEL</strong></button>
+		  	</div>
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="continueButton"><strong>CONTINUE</strong></button>
+		  	</div>
+	  	</div>
+  	</div>
+</template>
+
+
+
+<template name="sites">
+	<div class="container">
+		<div class="presetQuestion">what are your <br> favorite sites?</div>
+
+		<div class="row">
+		  	<div class="col-xs-6 col-md-4 button-parent">
+		  		<button class="squareButton3" id="imgur"><img src="/imgur.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent">
+		  		<button class="squareButton3" id="beeradvocate"><img src="/beeradvocate.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent">
+		  		<button class="squareButton3" id="thingiverse"><img src="/thingiverse.png"/></button>
+		  	</div>
+		</div>
+		
+		<div class="row">
+		  	<div class="col-xs-6 col-md-4 button-parent" id="leftButton">
+		  		<button class="squareButton3" id="xkcd"><img src="/xkcd.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent" id="rightButton">
+		  		<button class="squareButton3" id="espn"><img src="/espn.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent" id="rightButton">
+		  		<button class="squareButton3" id="lolcats"><img src="/lolcats.png"/></button>
+		  	</div>
+	  	</div>
+
+	  	<div class="row">
+		  	<div class="col-xs-6 col-md-4 button-parent" id="leftButton">
+		  		<button class="squareButton3" id="sportsYahoo"><img src="/sportsYahoo.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent" id="rightButton">
+		  		<button class="squareButton3" id="theoatmeal"><img src="/theoatmeal.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent" id="rightButton">
+		  		<button class="squareButton3" id="reddit"><img src="/reddit.png"/></button>
+		  	</div>
+	  	</div>
+
+	  	<div class="row">
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="cancelButton"><strong>CANCEL</strong></button>
+		  	</div>
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="continueButton"><strong>CONTINUE</strong></button>
+		  	</div>
+	  	</div>
+  	</div>
+</template>
+
+
+
+<template name="apps">
+	<div class="container">
+		<div class="presetQuestion">what are your <br> favorite apps?</div>
+
+		<div class="row">
+		  	<div class="col-xs-6 col-md-4 button-parent">
+		  		<button class="squareButton3" id="facebook"><img src="/facebook.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent">
+		  		<button class="squareButton3" id="twitter"><img src="/twitter.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent">
+		  		<button class="squareButton3" id="instagram"><img src="/instagram.png"/></button>
+		  	</div>
+		</div>
+		
+		<div class="row">
+		  	<div class="col-xs-6 col-md-4 button-parent" id="leftButton">
+		  		<button class="squareButton3" id="pinterest"><img src="/pinterest.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent" id="rightButton">
+		  		<button class="squareButton3" id="pandora"><img src="/pandora.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent" id="rightButton">
+		  		<button class="squareButton3" id="linkedin"><img src="/linkedin.png"/></button>
+		  	</div>
+	  	</div>
+
+	  	<div class="row">
+		  	<div class="col-xs-6 col-md-4 button-parent" id="leftButton">
+		  		<button class="squareButton3" id="dropbox"><img src="/dropbox.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent" id="rightButton">
+		  		<button class="squareButton3" id="angrybirds"><img src="/angrybirds.png"/></button>
+		  	</div>
+		  	<div class="col-xs-6 col-md-4 button-parent" id="rightButton">
+		  		<button class="squareButton3" id="candycrush"><img src="/candycrush.png"/></button>
+		  	</div>
+	  	</div>
+
+	  	<div class="row">
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="cancelButton"><strong>CANCEL</strong></button>
+		  	</div>
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="continueButton"><strong>CONTINUE</strong></button>
+		  	</div>
+	  	</div>
+  	</div>
+</template>
+
+
+
+<template name="resist">
+	<div class="container">
+		<div class="logo"><img src="/orfeusIcon.png"/></div>
+		<button id="resistButton"><strong>RESIST</strong></button>
+  	</div>
+</template>
+
+
+
+<template name="distraction">
+	<div class="container">
+		<div class="setting"><img src="/setting.png"/></div>
+		<div class="distractionQuestion">do you want to go to</div>
+		<!-- create an array of user input and randomly push one - change text inside div and img -->
+		<div class="nameWebsiteApp"><strong>lolcats.com</strong></div>
+		<div class="pictureWebsiteApp"><img src="/lolcats_large.png"/></div>
+		<div class="row">
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="cancelButton"><strong>CANCEL</strong></button>
+		  	</div>
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="continueButton"><strong>CONTINUE</strong></button>
+		  	</div>
+	  	</div>
+  	</div>
+</template>
+
+
+
+<template name="calibrate">
+	<div class="container">
+		<div class="textMiddle2">calibrating...</div>
+		<div class="instructionMsg2">With your primary smoking hand, bring your fingers to your mouth in a repetitive manner, like you would while smoking.</div>
+		<button class="actionButton" id="lonelyCancel2"><strong>CANCEL</strong></button>
+  	</div>
+</template>
+
+
+
+<template name="syncing">
+	<div class="container">
+		<div class="textMiddle">syncing...</div>
+		<button class="actionButton" id="lonelyCancel"><strong>CANCEL</strong></button>
+  	</div>
+</template>
+
+<template name="sync">
+	<div class="container">
+		<div class="syncText">please begin by syncing with your pebble smartwatch</div>
+		<div class="syncText2">be sure to wear your pebble on the arm you smoke with</div>
+		<div class="row">
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="cancelButton"><strong>CANCEL</strong></button>
+		  	</div>
+		  	<div class="col-xs-6 button-parent" id="bottomButton">
+		  		<button class="actionButton" id="syncButton"><strong>SYNC NOW</strong></button>
+		  	</div>
+	  	</div>
+  	</div>
+</template>
+
+
+
+<template name="welcome">
+	<div class="container">
+		<div class="welcomeLogo"><img src="/logo_only.png"/></div>
+		<div class="welcomeMsg">welcome to orfeus</div>
+		<div class="instructionMsg">By entering your triggers, orfeus can learn when you are tempted to smoke.  
+You will be prompted with fun activities when you are near a trigger.  You can also come to this app when you need to resist temptation.</div>
+  		<button class="actionButton" id="lonelyContinue"><strong>CONTINUE</strong></button>
+	</div>
+</template>
+
+
+
+<template name="settingPage">
+	<div class="container">
+		<button class="settingButton">triggers</button>
+		<button class="settingButton">time of day</button>
+		<button class="settingButton">favorite sites</button>
+		<button class="settingButton">favorite apps</button>
+		<button class="settingButton">calibrate</button>
+		<button class="actionButton" id="lonelyBack2"><strong>BACK</strong></button>
+	</div>
+</template>
+
+
+
+<template name="calibrated">
+	<div class="container">
+		<div class="textMiddle">calibrated!</div>
+		<button class="actionButton" id="lonelyCancelContinue"><strong>CONTINUE</strong></button>
+  	</div>
+</template>
+
+
+
+<template name="synced">
+	<div class="container">
+		<div class="textMiddle">synced!</div>
+		<button class="actionButton" id="lonelyCancelContinue"><strong>CONTINUE</strong></button>
+  	</div>
+</template>
